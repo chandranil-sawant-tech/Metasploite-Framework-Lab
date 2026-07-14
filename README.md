@@ -1,50 +1,109 @@
 # Metasploit Framework Lab
 
 ## Project Overview
-This project demonstrates a penetration testing workflow in a controlled home lab using Kali Linux and Metasploitable 2. The objective was to identify vulnerable services, validate a known vulnerability, and perform basic post-exploitation activities while following ethical security practices.
+This project demonstrates a penetration testing lab using Kali Linux and Metasploitable 2 in a controlled environment. The objective was to identify vulnerabilities, exploit the target, and perform post-exploitation enumeration for learning purposes only.
 
-## Objectives
-- Configure a penetration testing lab
-- Verify network connectivity
-- Perform network reconnaissance using Nmap
-- Identify vulnerable services
-- Validate a known vulnerability using Metasploit Framework
-- Perform basic post-exploitation enumeration
-- Document findings
+> *Disclaimer:* This project was performed in a controlled lab environment for educational and authorized testing only.
+
+---
 
 ## Lab Environment
+
 - Attacker Machine: Kali Linux
 - Target Machine: Metasploitable 2
 - Virtualization: VMware Workstation
-- Network Mode: Host-Only
+- Network: Host-Only
+
+---
 
 ## Tools Used
-- Kali Linux
-- Metasploit Framework
+
 - Nmap
-- VMware Workstation
-- Metasploitable 2
-
-## Methodology
-1. Verified connectivity between attacker and target.
-2. Performed network scanning using Nmap.
-3. Identified the vulnerable vsFTPd 2.3.4 service.
-4. Validated the vulnerability using Metasploit Framework.
-5. Obtained root shell access in the lab environment.
-6. Performed basic system enumeration.
-7. Collected evidence and documented the results.
-
-## Key Skills Demonstrated
-- Network Scanning
-- Service Enumeration
-- Vulnerability Validation
 - Metasploit Framework
+- Linux Terminal
+
+---
+
+## Project Workflow
+
+1. Verify network connectivity
+2. Perform Nmap scan
+3. Identify vulnerable service
+4. Launch Metasploit Framework
+5. Search exploit module
+6. Configure RHOST and required options
+7. Exploit the target
+8. Verify Meterpreter session
+9. Perform post-exploitation enumeration
+10. Collect evidence
+
+---
+
+## Skills Demonstrated
+
+- Network Scanning
+- Vulnerability Identification
+- Metasploit Framework
+- Exploitation
+- Meterpreter
 - Linux Commands
-- Basic Post-Exploitation
-- Documentation
+- Post-Exploitation
+- Enumeration
 
-## Results
-The assessment successfully demonstrated the exploitation of a known vulnerable FTP service in a controlled lab environment. Root shell access was obtained, and basic enumeration was performed to understand the target system.
+---
 
-## Disclaimer
-This project was conducted only in an isolated home lab for educational and ethical cybersecurity learning. No unauthorized systems were targeted.
+## Evidence
+
+All screenshots are available in the *Evidence* folder.
+
+01 - Metasploit Login
+
+02 - Kali IP & Ping Success
+
+03 - Nmap Scan
+
+04 - Nmap Scan (A)
+
+05 - Nmap Scan (B)
+
+06 - Nmap Scan 2
+
+07 - Nmap Scan 2 (A)
+
+08 - Nmap Scan 2 (B)
+
+09 - MSFConsole
+
+10 - MSFConsole (A)
+
+11 - Module Search & RHOST Configuration
+
+12 - Exploit
+
+13 - Root Verification
+
+14 - Session Management
+
+15 - Session Management (A)
+
+16 - Enumeration 1
+
+17 - Enumeration 1 (A)
+
+18 - Enumeration 1 (B)
+
+19 - Enumeration 2
+
+20 - Enumeration 3 & Ifconfig
+
+---
+
+## Result
+
+Successfully exploited the vulnerable machine in a controlled lab environment and performed post-exploitation enumeration.
+
+---
+
+## Author
+
+Chandranil Sawant

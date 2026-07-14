@@ -13,11 +13,13 @@ This project demonstrates a penetration testing lab using Kali Linux and Metaspl
 - Target Machine: Metasploitable 2
 - Virtualization: VMware Workstation
 - Network: Host-Only
+- Host OS: Windows 11
 
 ---
 
 ## Tools Used
 
+- VMware Workstation Player 16
 - Nmap
 - Metasploit Framework
 - Linux Terminal
@@ -106,4 +108,6 @@ Successfully exploited the vulnerable machine in a controlled lab environment an
 
 ## Author
 
-Chandranil Sawant
+*Chandranil Sawant*
+
+GitHub: https://github.com/chandranil-sawant-tech

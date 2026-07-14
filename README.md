@@ -59,7 +59,7 @@ This project demonstrates a penetration testing lab using Kali Linux and Metaspl
 ## Evidence
 
 ### 01. Metasploit Login
-![01](Evidence/01_Metasploit%20Loggededin.png)
+![01](Evidence/01_Metasploite%20Loggedin.png)
 
 ### 02. Kali IP & Ping Success
 ![02](Evidence/02_Kali-IP&Ping_Success.png)

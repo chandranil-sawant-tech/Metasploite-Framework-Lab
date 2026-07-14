@@ -87,7 +87,7 @@ This project demonstrates a penetration testing lab using Kali Linux and Metaspl
 ![10](Evidence/10_Msfconsole(A).png)
 
 ### 11. Module Search & RHOST Configuration
-![11](Evidence/11_Module_Search&RHOST_Set.png)
+![11](Evidence/11_Module_Serarch&RHOST_Set.png)
 
 ### 12. Exploit
 ![12](Evidence/12_Exploit.png)
